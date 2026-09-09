@@ -5,6 +5,10 @@ node_modules/
 dist/
 build/
 
+# TypeScript generated files
+**/src/*.js
+**/src/*.js.map
+
 # Environment variables
 .env
 .env.*
