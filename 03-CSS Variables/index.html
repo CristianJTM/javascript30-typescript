@@ -22,10 +22,22 @@
   <img src="https://unsplash.it/800/500?image">
 
   <style>
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
 
-    /*
-      misc styles, nothing to do with CSS variables
-    */
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+    .hl {
+      color: var(--base);
+    }
+
 
     body {
       text-align: center;
@@ -45,7 +57,7 @@
     }
   </style>
 
-  <script>
+  <script src= "src/index.js">
   </script>
 
 </body>
